@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		324E23B71D23D57F00ED0D30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 324E23B61D23D57F00ED0D30 /* main.m */; };
+		324E23BA1D23D58000ED0D30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 324E23B91D23D58000ED0D30 /* AppDelegate.m */; };
+		324E23BD1D23D58000ED0D30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 324E23BC1D23D58000ED0D30 /* ViewController.m */; };
+		324E23C01D23D58000ED0D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324E23BE1D23D58000ED0D30 /* Main.storyboard */; };
+		324E23C21D23D58000ED0D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324E23C11D23D58000ED0D30 /* Assets.xcassets */; };
+		324E23C51D23D58000ED0D30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324E23C31D23D58000ED0D30 /* LaunchScreen.storyboard */; };
+		324E23D01D23D58000ED0D30 /* QTPriceCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 324E23CF1D23D58000ED0D30 /* QTPriceCalendarTests.m */; };
+		324E23DB1D23D58000ED0D30 /* QTPriceCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 324E23DA1D23D58000ED0D30 /* QTPriceCalendarUITests.m */; };
+		324E23F71D23D60F00ED0D30 /* LQCalendarHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 324E23EA1D23D60F00ED0D30 /* LQCalendarHeadView.m */; };
+		324E23F81D23D60F00ED0D30 /* QTCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 324E23EC1D23D60F00ED0D30 /* QTCalendarCell.m */; };
+		324E23F91D23D60F00ED0D30 /* QTCalendarCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 324E23EE1D23D60F00ED0D30 /* QTCalendarCollectionCell.m */; };
+		324E23FA1D23D60F00ED0D30 /* QTCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 324E23F01D23D60F00ED0D30 /* QTCalendarHeaderView.m */; };
+		324E23FB1D23D60F00ED0D30 /* QTCalendarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 324E23F21D23D60F00ED0D30 /* QTCalendarItem.m */; };
+		324E23FC1D23D60F00ED0D30 /* QTCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 324E23F41D23D60F00ED0D30 /* QTCalendarView.m */; };
+		324E23FD1D23D60F00ED0D30 /* QTCalendarViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 324E23F61D23D60F00ED0D30 /* QTCalendarViewLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		324E23CC1D23D58000ED0D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 324E23AA1D23D57F00ED0D30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 324E23B11D23D57F00ED0D30;
+			remoteInfo = QTPriceCalendar;
+		};
+		324E23D71D23D58000ED0D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 324E23AA1D23D57F00ED0D30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 324E23B11D23D57F00ED0D30;
+			remoteInfo = QTPriceCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		324E23B21D23D57F00ED0D30 /* QTPriceCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTPriceCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		324E23B61D23D57F00ED0D30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		324E23B81D23D58000ED0D30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		324E23B91D23D58000ED0D30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		324E23BB1D23D58000ED0D30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		324E23BC1D23D58000ED0D30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		324E23BF1D23D58000ED0D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		324E23C11D23D58000ED0D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		324E23C41D23D58000ED0D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		324E23C61D23D58000ED0D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324E23CB1D23D58000ED0D30 /* QTPriceCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTPriceCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		324E23CF1D23D58000ED0D30 /* QTPriceCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTPriceCalendarTests.m; sourceTree = "<group>"; };
+		324E23D11D23D58000ED0D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324E23D61D23D58000ED0D30 /* QTPriceCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTPriceCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		324E23DA1D23D58000ED0D30 /* QTPriceCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTPriceCalendarUITests.m; sourceTree = "<group>"; };
+		324E23DC1D23D58000ED0D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324E23E91D23D60F00ED0D30 /* LQCalendarHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQCalendarHeadView.h; sourceTree = "<group>"; };
+		324E23EA1D23D60F00ED0D30 /* LQCalendarHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQCalendarHeadView.m; sourceTree = "<group>"; };
+		324E23EB1D23D60F00ED0D30 /* QTCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTCalendarCell.h; sourceTree = "<group>"; };
+		324E23EC1D23D60F00ED0D30 /* QTCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTCalendarCell.m; sourceTree = "<group>"; };
+		324E23ED1D23D60F00ED0D30 /* QTCalendarCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTCalendarCollectionCell.h; sourceTree = "<group>"; };
+		324E23EE1D23D60F00ED0D30 /* QTCalendarCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTCalendarCollectionCell.m; sourceTree = "<group>"; };
+		324E23EF1D23D60F00ED0D30 /* QTCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTCalendarHeaderView.h; sourceTree = "<group>"; };
+		324E23F01D23D60F00ED0D30 /* QTCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTCalendarHeaderView.m; sourceTree = "<group>"; };
+		324E23F11D23D60F00ED0D30 /* QTCalendarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTCalendarItem.h; sourceTree = "<group>"; };
+		324E23F21D23D60F00ED0D30 /* QTCalendarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTCalendarItem.m; sourceTree = "<group>"; };
+		324E23F31D23D60F00ED0D30 /* QTCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTCalendarView.h; sourceTree = "<group>"; };
+		324E23F41D23D60F00ED0D30 /* QTCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTCalendarView.m; sourceTree = "<group>"; };
+		324E23F51D23D60F00ED0D30 /* QTCalendarViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTCalendarViewLayout.h; sourceTree = "<group>"; };
+		324E23F61D23D60F00ED0D30 /* QTCalendarViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTCalendarViewLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		324E23AF1D23D57F00ED0D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324E23C81D23D58000ED0D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324E23D31D23D58000ED0D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		324E23A91D23D57F00ED0D30 = {
+			isa = PBXGroup;
+			children = (
+				324E23B41D23D57F00ED0D30 /* QTPriceCalendar */,
+				324E23CE1D23D58000ED0D30 /* QTPriceCalendarTests */,
+				324E23D91D23D58000ED0D30 /* QTPriceCalendarUITests */,
+				324E23B31D23D57F00ED0D30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		324E23B31D23D57F00ED0D30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				324E23B21D23D57F00ED0D30 /* QTPriceCalendar.app */,
+				324E23CB1D23D58000ED0D30 /* QTPriceCalendarTests.xctest */,
+				324E23D61D23D58000ED0D30 /* QTPriceCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		324E23B41D23D57F00ED0D30 /* QTPriceCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				324E23E81D23D5F800ED0D30 /* Calendar */,
+				324E23BB1D23D58000ED0D30 /* ViewController.h */,
+				324E23BC1D23D58000ED0D30 /* ViewController.m */,
+				324E23BE1D23D58000ED0D30 /* Main.storyboard */,
+				324E23B51D23D57F00ED0D30 /* Supporting Files */,
+			);
+			path = QTPriceCalendar;
+			sourceTree = "<group>";
+		};
+		324E23B51D23D57F00ED0D30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				324E23B81D23D58000ED0D30 /* AppDelegate.h */,
+				324E23B91D23D58000ED0D30 /* AppDelegate.m */,
+				324E23C11D23D58000ED0D30 /* Assets.xcassets */,
+				324E23C31D23D58000ED0D30 /* LaunchScreen.storyboard */,
+				324E23C61D23D58000ED0D30 /* Info.plist */,
+				324E23B61D23D57F00ED0D30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		324E23CE1D23D58000ED0D30 /* QTPriceCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				324E23CF1D23D58000ED0D30 /* QTPriceCalendarTests.m */,
+				324E23D11D23D58000ED0D30 /* Info.plist */,
+			);
+			path = QTPriceCalendarTests;
+			sourceTree = "<group>";
+		};
+		324E23D91D23D58000ED0D30 /* QTPriceCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				324E23DA1D23D58000ED0D30 /* QTPriceCalendarUITests.m */,
+				324E23DC1D23D58000ED0D30 /* Info.plist */,
+			);
+			path = QTPriceCalendarUITests;
+			sourceTree = "<group>";
+		};
+		324E23E81D23D5F800ED0D30 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				324E23F31D23D60F00ED0D30 /* QTCalendarView.h */,
+				324E23F41D23D60F00ED0D30 /* QTCalendarView.m */,
+				324E23F11D23D60F00ED0D30 /* QTCalendarItem.h */,
+				324E23F21D23D60F00ED0D30 /* QTCalendarItem.m */,
+				324E23EB1D23D60F00ED0D30 /* QTCalendarCell.h */,
+				324E23EC1D23D60F00ED0D30 /* QTCalendarCell.m */,
+				324E23ED1D23D60F00ED0D30 /* QTCalendarCollectionCell.h */,
+				324E23EE1D23D60F00ED0D30 /* QTCalendarCollectionCell.m */,
+				324E23E91D23D60F00ED0D30 /* LQCalendarHeadView.h */,
+				324E23EA1D23D60F00ED0D30 /* LQCalendarHeadView.m */,
+				324E23EF1D23D60F00ED0D30 /* QTCalendarHeaderView.h */,
+				324E23F01D23D60F00ED0D30 /* QTCalendarHeaderView.m */,
+				324E23F51D23D60F00ED0D30 /* QTCalendarViewLayout.h */,
+				324E23F61D23D60F00ED0D30 /* QTCalendarViewLayout.m */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		324E23B11D23D57F00ED0D30 /* QTPriceCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324E23DF1D23D58000ED0D30 /* Build configuration list for PBXNativeTarget "QTPriceCalendar" */;
+			buildPhases = (
+				324E23AE1D23D57F00ED0D30 /* Sources */,
+				324E23AF1D23D57F00ED0D30 /* Frameworks */,
+				324E23B01D23D57F00ED0D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTPriceCalendar;
+			productName = QTPriceCalendar;
+			productReference = 324E23B21D23D57F00ED0D30 /* QTPriceCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		324E23CA1D23D58000ED0D30 /* QTPriceCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324E23E21D23D58000ED0D30 /* Build configuration list for PBXNativeTarget "QTPriceCalendarTests" */;
+			buildPhases = (
+				324E23C71D23D58000ED0D30 /* Sources */,
+				324E23C81D23D58000ED0D30 /* Frameworks */,
+				324E23C91D23D58000ED0D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				324E23CD1D23D58000ED0D30 /* PBXTargetDependency */,
+			);
+			name = QTPriceCalendarTests;
+			productName = QTPriceCalendarTests;
+			productReference = 324E23CB1D23D58000ED0D30 /* QTPriceCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		324E23D51D23D58000ED0D30 /* QTPriceCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324E23E51D23D58000ED0D30 /* Build configuration list for PBXNativeTarget "QTPriceCalendarUITests" */;
+			buildPhases = (
+				324E23D21D23D58000ED0D30 /* Sources */,
+				324E23D31D23D58000ED0D30 /* Frameworks */,
+				324E23D41D23D58000ED0D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				324E23D81D23D58000ED0D30 /* PBXTargetDependency */,
+			);
+			name = QTPriceCalendarUITests;
+			productName = QTPriceCalendarUITests;
+			productReference = 324E23D61D23D58000ED0D30 /* QTPriceCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		324E23AA1D23D57F00ED0D30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = L.Q;
+				TargetAttributes = {
+					324E23B11D23D57F00ED0D30 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					324E23CA1D23D58000ED0D30 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 324E23B11D23D57F00ED0D30;
+					};
+					324E23D51D23D58000ED0D30 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 324E23B11D23D57F00ED0D30;
+					};
+				};
+			};
+			buildConfigurationList = 324E23AD1D23D57F00ED0D30 /* Build configuration list for PBXProject "QTPriceCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 324E23A91D23D57F00ED0D30;
+			productRefGroup = 324E23B31D23D57F00ED0D30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				324E23B11D23D57F00ED0D30 /* QTPriceCalendar */,
+				324E23CA1D23D58000ED0D30 /* QTPriceCalendarTests */,
+				324E23D51D23D58000ED0D30 /* QTPriceCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		324E23B01D23D57F00ED0D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324E23C51D23D58000ED0D30 /* LaunchScreen.storyboard in Resources */,
+				324E23C21D23D58000ED0D30 /* Assets.xcassets in Resources */,
+				324E23C01D23D58000ED0D30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324E23C91D23D58000ED0D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324E23D41D23D58000ED0D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		324E23AE1D23D57F00ED0D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324E23BD1D23D58000ED0D30 /* ViewController.m in Sources */,
+				324E23FC1D23D60F00ED0D30 /* QTCalendarView.m in Sources */,
+				324E23FB1D23D60F00ED0D30 /* QTCalendarItem.m in Sources */,
+				324E23F81D23D60F00ED0D30 /* QTCalendarCell.m in Sources */,
+				324E23F91D23D60F00ED0D30 /* QTCalendarCollectionCell.m in Sources */,
+				324E23FA1D23D60F00ED0D30 /* QTCalendarHeaderView.m in Sources */,
+				324E23BA1D23D58000ED0D30 /* AppDelegate.m in Sources */,
+				324E23FD1D23D60F00ED0D30 /* QTCalendarViewLayout.m in Sources */,
+				324E23B71D23D57F00ED0D30 /* main.m in Sources */,
+				324E23F71D23D60F00ED0D30 /* LQCalendarHeadView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324E23C71D23D58000ED0D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324E23D01D23D58000ED0D30 /* QTPriceCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324E23D21D23D58000ED0D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324E23DB1D23D58000ED0D30 /* QTPriceCalendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		324E23CD1D23D58000ED0D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 324E23B11D23D57F00ED0D30 /* QTPriceCalendar */;
+			targetProxy = 324E23CC1D23D58000ED0D30 /* PBXContainerItemProxy */;
+		};
+		324E23D81D23D58000ED0D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 324E23B11D23D57F00ED0D30 /* QTPriceCalendar */;
+			targetProxy = 324E23D71D23D58000ED0D30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		324E23BE1D23D58000ED0D30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				324E23BF1D23D58000ED0D30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		324E23C31D23D58000ED0D30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				324E23C41D23D58000ED0D30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		324E23DD1D23D58000ED0D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		324E23DE1D23D58000ED0D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		324E23E01D23D58000ED0D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QTPriceCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Just.QTPriceCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		324E23E11D23D58000ED0D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QTPriceCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Just.QTPriceCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		324E23E31D23D58000ED0D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QTPriceCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Just.QTPriceCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTPriceCalendar.app/QTPriceCalendar";
+			};
+			name = Debug;
+		};
+		324E23E41D23D58000ED0D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QTPriceCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Just.QTPriceCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTPriceCalendar.app/QTPriceCalendar";
+			};
+			name = Release;
+		};
+		324E23E61D23D58000ED0D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QTPriceCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Just.QTPriceCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QTPriceCalendar;
+			};
+			name = Debug;
+		};
+		324E23E71D23D58000ED0D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QTPriceCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Just.QTPriceCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QTPriceCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		324E23AD1D23D57F00ED0D30 /* Build configuration list for PBXProject "QTPriceCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324E23DD1D23D58000ED0D30 /* Debug */,
+				324E23DE1D23D58000ED0D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324E23DF1D23D58000ED0D30 /* Build configuration list for PBXNativeTarget "QTPriceCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324E23E01D23D58000ED0D30 /* Debug */,
+				324E23E11D23D58000ED0D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		324E23E21D23D58000ED0D30 /* Build configuration list for PBXNativeTarget "QTPriceCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324E23E31D23D58000ED0D30 /* Debug */,
+				324E23E41D23D58000ED0D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		324E23E51D23D58000ED0D30 /* Build configuration list for PBXNativeTarget "QTPriceCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324E23E61D23D58000ED0D30 /* Debug */,
+				324E23E71D23D58000ED0D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 324E23AA1D23D57F00ED0D30 /* Project object */;
+}
