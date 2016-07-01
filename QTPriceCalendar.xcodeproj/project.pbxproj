@@ -42,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		322F89641D25FC6F001EFD9E /* QTCalendarConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTCalendarConst.h; sourceTree = "<group>"; };
 		324E23B21D23D57F00ED0D30 /* QTPriceCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTPriceCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		324E23B61D23D57F00ED0D30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		324E23B81D23D58000ED0D30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -179,6 +180,7 @@
 				324E23F01D23D60F00ED0D30 /* QTCalendarHeaderView.m */,
 				324E23F51D23D60F00ED0D30 /* QTCalendarViewLayout.h */,
 				324E23F61D23D60F00ED0D30 /* QTCalendarViewLayout.m */,
+				322F89641D25FC6F001EFD9E /* QTCalendarConst.h */,
 			);
 			path = Calendar;
 			sourceTree = "<group>";
@@ -546,6 +548,7 @@
 				324E23E11D23D58000ED0D30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		324E23E21D23D58000ED0D30 /* Build configuration list for PBXNativeTarget "QTPriceCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +557,7 @@
 				324E23E41D23D58000ED0D30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		324E23E51D23D58000ED0D30 /* Build configuration list for PBXNativeTarget "QTPriceCalendarUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +566,7 @@
 				324E23E71D23D58000ED0D30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import "QTCalendarCell.h"
+#import "QTCalendarConst.h"
 
 @interface QTCalendarCell ()
 
@@ -86,7 +87,7 @@
 - (void)setCalendarItem:(id<QTCalendarItem>)calendarItem {
     if ([calendarItem isEnabled]) {//可以点击
         if ([calendarItem isSelect]) {//选中状态
-            self.contentView.backgroundColor = RGBA(46, 189, 89, 1);
+            self.contentView.backgroundColor = QT_RGBA(46, 189, 89, 1);
         } else {
             self.contentView.backgroundColor = [UIColor whiteColor];
         }
@@ -115,46 +116,4 @@
 - (void)resetShow {
     
 }
-
-//- (void)setCalendarModel:(LQCalendarModel *)calendarModel {
-//
-//    if (_calendarModel != calendarModel) {
-//        _calendarModel = calendarModel;
-//    }
-//    self.lblDay.text = calendarModel.day;
-//    self.lblPrice.text = calendarModel.price;
-//    if (calendarModel.isEnable) {
-//
-//        self.lblPrice.textColor = [UIColor orangeColor];
-//        self.lblDay.textColor = [UIColor blackColor];
-//    }else {
-//        self.lblPrice.textColor = [UIColor darkGrayColor];
-//        self.lblDay.textColor = [UIColor darkGrayColor];
-//    }
-//    if (calendarModel.holidayType.length > 0) {
-//        switch ([calendarModel.holidayType integerValue])
-//        {
-//            case 0:
-//                self.lblHolidy.text = @"休";
-//                break;
-//            case 1:
-//                self.lblHolidy.text = @"休";
-//                break;
-//            case 2:
-//                self.lblHolidy.text = @"班";
-//                break;
-//            case 3:
-//                self.lblHolidy.text = @"";
-//            default:
-//                self.lblHolidy.text = @"";
-//                break;
-//        }
-//    }
-//    if (calendarModel.holidayName.length > 0) {
-//        if ([calendarModel.holidayType integerValue] == 0 || [calendarModel.holidayType integerValue] == 3) {
-//            self.lblDay.text = calendarModel.holidayName;
-//            self.lblDay.font = [UIFont systemFontOfSize:12];
-//        }
-//    }
-//}
 @end

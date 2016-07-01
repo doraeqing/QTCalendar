@@ -62,7 +62,6 @@ UICollectionViewDelegateFlowLayout
 
 - (instancetype)initWithFrame:(CGRect)frame direction:(QTCalendarViewDirection)direction {
     if (self = [super initWithFrame:frame]) {
-//        _direction = direction;
         _directionCalendar = _direction = direction;
         [self commonInit];
     }
@@ -74,6 +73,10 @@ UICollectionViewDelegateFlowLayout
         [self commonInit];
     }
     return self;
+}
+
+- (instancetype)init {
+   return [self initWithFrame:CGRectZero direction:QTCalendarViewDirectionHorizontal];
 }
 
 - (void)commonInit {
@@ -241,9 +244,6 @@ UICollectionViewDelegateFlowLayout
     }
     return section;
 }
-- (void)updateConstraints {
-    
-}
 
 static NSString * const calendarCellIdentifier = @"QTCalendarCell";
 - (UICollectionViewCell *)cellForCalendarAtIndexPath:(NSIndexPath *)indexPath {
@@ -270,6 +270,7 @@ static NSString * const calendarCellIdentifier = @"QTCalendarCell";
     cell.calendarItem = item;
     return cell;
 }
+
 #pragma mark - ScrollViewDelegate
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
@@ -279,6 +280,7 @@ static NSString * const calendarCellIdentifier = @"QTCalendarCell";
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     if (!_delegateHas.calendarViewDidEndScroll) return;
     [self.delegate calendarViewDidEndDecelerating:self];
+    self.frame = CGRectMake(self.frame.origin.x,self.frame.origin.y, self.frame.size.width, self.calendarContainer.contentSize.height);
 }
 
 #pragma mark - UICollectionViewDatasource

@@ -10,7 +10,7 @@
 #import "QTCalendarItem.h"
 
 typedef NS_ENUM(NSInteger, QTCalendarViewDirection) {
-    QTCalendarViewDirectionHorizontal,//水平方向滚动
+    QTCalendarViewDirectionHorizontal,//水平方向滚动 默认
     QTCalendarViewDirectionVertical,//垂直方向滚动
 };
 
@@ -29,7 +29,7 @@ typedef NS_ENUM(NSInteger, QTCalendarViewDirection) {
 - (void)scrollToRowAtDate:(NSDate *)date;
 
 @end
-
+#pragma mark - QTCalendarViewDelegate
 @protocol QTCalendarViewDelegate <NSObject>
 
 @optional
@@ -40,6 +40,7 @@ typedef NS_ENUM(NSInteger, QTCalendarViewDirection) {
 - (void)calendarView:(QTCalendarView *)calendarView previousSelectDate:(NSDate *)preDate currentSelectDate:(NSDate *)currentDate;
 @end
 
+#pragma mark - QTCalendarViewDataSource
 //_______________________________________________________________________________________________________________
 @protocol QTCalendarViewDataSource <NSObject>
 
